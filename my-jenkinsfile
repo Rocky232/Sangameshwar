@@ -6,8 +6,20 @@ pipeline {
         echo "This is Build Statge"
       }
     }
+  
+    stage ('TEST') {
+      steps {
+        echo "This is Build Statge"
+      }
+    }
+  
+    stage ('DEPLOY') {
+      steps {
+        echo "This is Build Statge"
+      }
+    }
   }
-
+  
 }
 
 
