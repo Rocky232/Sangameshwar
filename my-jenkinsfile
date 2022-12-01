@@ -9,13 +9,13 @@ pipeline {
   
     stage ('TEST') {
       steps {
-        echo "This is Build Statge"
+        echo "This is Test Statge"
       }
     }
   
     stage ('DEPLOY') {
       steps {
-        echo "This is Build Statge"
+        echo "This is Deploy Statge"
       }
     }
   }
